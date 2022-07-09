@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(105, 188, 190);
+    color: rgb(0, 0, 0);
+}
+
+main {
+    background-color: rgb(151, 163, 163);
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* BOX MODEL EN PARRAFOS */
+.parrafo {
+    /* acesso directo arriba, derecha, anbajo izquierda */
+
+
+
+    padding: 20px;
+    text-align: justify;
+
+
+
+
+    /* bordes tamoño color del borde y el tipo de boder
+    acceso directo  */
+    /* border: 5px solid red; */
+
+
+    /* la etiqueta borde tiene la siguientes propiedades= arriba, derecha, abajo, izquierda  */
+
+
+    /*     border-width: 20px 10px 20px 50px;
+    border-style: dashed groove solid double; */
+
+
+
+
+    /* border-top-style: groove;
+    border-right-style: solid;
+    border-bottom-style: double;
+    border-left-style: dotted;
+ */
+    /* arriba,
+    derecha,
+    abajo,
+    izquierda */
+
+
+
+    /*   border-color: white yellow blueviolet black; */
+
+    /* border-top-color: black;
+    border-bottom-color: rgb(78, 23, 23);
+    border-right-color: rgb(192, 168, 32);
+    border-left-color: rgb(175, 27, 138); */
+
+
+
+
+
+    /* arriba, derecha, abajo, izquierda  */
+    /*   border-top-width: 5px;
+    border-right-width: 40px;
+    border-bottom-width: 20px;
+    border-left-width: 0px;
+    border-style: double;
+    border-color: rgb(28, 28, 39); */
+    /*  
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 4px;
+    padding-left: 5px;*/
+
+    /* margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    margin-left: 15PX; */
+
+}
+
+.imagenes {
+    text-align: center;
+
+
+}
+
+.cuerpo {
+    border: 8x;
+    border-style: solid;
+
+}
+
+.imagenes img {
+    border: 5px solid black;
+
+}
+
+img {
+    width: 300px;
+}
